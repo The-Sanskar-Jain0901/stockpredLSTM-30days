@@ -32,7 +32,7 @@ st.pyplot(fig)
 
 #GRAPH2---------------------------------------------------------------
 
-model=load_model("D:\\EDAI\\FutureWeb\\future122.h5")
+model=load_model("future122.h5")
 training_size=int(len(df1)*0.65)
 
 scaler=MinMaxScaler(feature_range=(0,1))
